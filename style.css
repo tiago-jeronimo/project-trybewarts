@@ -3,7 +3,19 @@
   display: flex;
 }
 
-.trybewarts-login {
-  display: ;
-  
+ .trybewarts-login {
+  display: flex;
+  flex-direction: column;
+  margin: 40px;
 }
+
+#evaluation-form {
+  display: flex;
+  flex-direction: column;
+  width: 675px;
+}
+
+.form {
+  display: flex;
+}
+
