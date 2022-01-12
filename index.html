@@ -22,13 +22,15 @@
     </form>
   </header>
   <main class="form">
-    <form action="#" id="evaluation-form"></form>
+    <form action="#" id="evaluation-form">
     <div>
+        <div class="firstAndLastname-flex">
       <input id="input-name" type="text" placeholder="Nome">
       <input id="input-lastname" type="text" placeholder="Sobrenome">
+         </div>
+
+         <div class="form" >
       <input id="input-email" type="email" placeholder="Email">
-
-
       <label for="house">QUAL A SUA CASA?</label>
       <select name="house" id="house">
 
@@ -36,16 +38,63 @@
         <option text="Reactpuff" value="Reactpuff" id="reactpuff-house">Reactpuff</option>
         <option text="Corvinode" value="Corvinode" id="corvinode-house">Corvinode</option>
         <option text="Pytherina" value="Pytherina" id="pytherina-house">Pytherina</option>
-
+        </div>
+        
       </select>
     </div>
 
+    <div id="family-flexbox"> 
+      <label for="" id="label-family">Qual sua família?</label>
+      <div> <input type="radio" name="family" id="Frontend" value="Frontend"> 
+      <label for="Frontend">Frontend</label></div>
+    
+      <div> <input type="radio" name="family" id="Backend" value="Backend"> 
+      <label for="Backend">Backend</label></div>
+    
+      <div> <input type="radio" name="family" id="FullStack" value="FullStack"> 
+      <label for="FullStack">FullStack</label></div>
+    </div>
+
+    <div id="checkBox" >
+
+
+<div><label id="label-content">Qual conteúdo você está com mais vontade de aprender?<label></div>
+
+  <div class='option-checkbox'>
+  <input type="checkbox" name="HoFs" id="HoFs" value="HoFs">
+  <label for="HoFs">HoFs</label>
+  </div>
+
+  <div class='option-checkbox'>
+  <input type="checkbox" name="Jest" id="Jest" value="Jest">
+  <label for="Jest">Jest</label>
+  </div>
+
+  <div class='option-checkbox'>
+  <input type="checkbox" name="Promises" id="Promises" value="Promises">
+  <label for="Promises">Promises</label>
+  </div>
+
+  <div class='option-checkbox'>
+  <input type="checkbox" name="React" id="React" value="React">
+  <label for="React">React</label>
+  </div>
+
+  <div class='option-checkbox'>
+  <input type="checkbox" name="SQL" id="SQL" value="SQL">
+  <label for="SQL">SQL</label>
+  </div>
+
+  <div class='option-checkbox'>
+  <input type="checkbox" name="Python" id="Python" value="Python">          <label for="Python">Python</label>
+  </div>
+
+</div>
+    
+</form>
+
+
     <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg" alt="">
-
-
-
-
-
   </main>
 
 </body>
