@@ -9,17 +9,15 @@
   margin: 40px;
 }
 
-
+  #evaluation-form {
+  display: flex;
+  flex-direction: column;
+  width: 675px;
+}
 
 .form {
   display: flex;
  
-}
-
-#evaluation-form {
-  display: flex;
-  flex-direction: column;
-  width: 675px;
 }
 
 #trybewarts-forms-logo {
