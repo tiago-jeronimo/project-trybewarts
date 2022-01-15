@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .header {
   background-color: rgb(50, 167, 145);
   display: flex;
@@ -13,6 +19,7 @@
   display: flex;
   flex-direction: column;
   width: 675px;
+  margin: 50px;
 }
 
 .form {
@@ -21,7 +28,8 @@
 
 #trybewarts-forms-logo {
   height: 500px;
-  width: 300%;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .firstAndLastname-flex {
@@ -40,4 +48,8 @@
   margin: 0;
   width: 652px;
   height: 79px;
+}
+
+footer {
+  margin-left: 50%;
 }
