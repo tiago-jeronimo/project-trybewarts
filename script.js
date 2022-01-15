@@ -1,3 +1,5 @@
+/* const { RuleTester } = require("eslint"); */
+
 const pushBtn = document.getElementById('submit-btn');
 const agreementState = document.getElementById('agreement');
 function pushBtnState() {
