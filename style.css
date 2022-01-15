@@ -36,8 +36,8 @@
   flex-direction: row;
 }
 
-#idTextarea {
+#idTextarea textarea {
   margin: 0;
-  width: 425px;
-  height: 114px;
+  width: 652px;
+  height: 79px;
 }
