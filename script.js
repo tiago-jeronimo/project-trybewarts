@@ -1,8 +1,4 @@
 /* const { RuleTester } = require("eslint"); */
-const email = document.querySelector('#email');
-const password = document.querySelector('#password');
-const btn = document.querySelector('#send');
-
 const pushBtn = document.getElementById('submit-btn');
 const agreementState = document.getElementById('agreement');
 function pushBtnState() {
@@ -16,11 +12,27 @@ function pushBtnState() {
 }
 agreementState.addEventListener('click', pushBtnState);
 
-function loginCheck() {
-  if (email.value === 'tryber@teste.com' && password.value === '123456') {
+const inputEmail = document.querySelector('#email');
+const inputPassword = document.querySelector('#password');
+const btn = document.querySelector('#send');
+
+function login(event) {
+  event.preventDefault();
+
+  if (inputEmail.value === 'tryber@teste.com' && inputPassword.value === '123456') {
     alert('Olá, Tryber!');
   } else {
     alert('Email ou senha inválidos.');
   }
 }
-btn.addEventListener('click', loginCheck);
+btn.addEventListener('click', login);
+
+/* -------------------------------------------------------------------------------------- */
+
+/* btn.addEventListener('click', function () {
+  if (inputEmail.value === 'tryber@teste.com' && inputPassword.value === '123456') {
+    alert ('Olá, Tryber!');
+  } else {
+    alert ('Email ou senha inválidos.');
+  }
+}); */
