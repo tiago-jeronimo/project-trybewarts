@@ -1,4 +1,4 @@
-/* const { RuleTester } = require("eslint"); */
+
 const pushBtn = document.getElementById('submit-btn');
 const agreementState = document.getElementById('agreement');
 function pushBtnState() {
@@ -12,12 +12,11 @@ function pushBtnState() {
 }
 agreementState.addEventListener('click', pushBtnState);
 
-const inputEmail = document.querySelector('#email');
-const inputPassword = document.querySelector('#password');
 const btn = document.querySelector('#send');
 
-function login(event) {
-  event.preventDefault();
+function login() {
+  const inputEmail = document.querySelector('#email');
+  const inputPassword = document.querySelector('#password');
 
   if (inputEmail.value === 'tryber@teste.com' && inputPassword.value === '123456') {
     alert('Olá, Tryber!');
