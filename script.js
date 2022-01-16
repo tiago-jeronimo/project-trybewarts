@@ -1,4 +1,3 @@
-
 const pushBtn = document.getElementById('submit-btn');
 const agreementState = document.getElementById('agreement');
 function pushBtnState() {
@@ -25,13 +24,3 @@ function login() {
   }
 }
 btn.addEventListener('click', login);
-
-/* -------------------------------------------------------------------------------------- */
-
-/* btn.addEventListener('click', function () {
-  if (inputEmail.value === 'tryber@teste.com' && inputPassword.value === '123456') {
-    alert ('Olá, Tryber!');
-  } else {
-    alert ('Email ou senha inválidos.');
-  }
-}); */
